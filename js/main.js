@@ -29,7 +29,7 @@ function createCard(album) {
     const link = document.createElement("a");
     link.href = album.url;
     link.className = "text-blue-700 underline";
-    link.textContent = "Više o jelu";
+    link.textContent = "Link za album";
 
     card.append(image, name, price, link);
 
@@ -49,14 +49,14 @@ function render(items) {
         }
         list.append(fragment);
 
-        count.textContent = `Prikazana jela: ${items.length}`;
+        count.textContent = `Prikazani albumi: ${items.length}`;
 
         empty.classList.toggle("hidden", items.length > 0);
     
 }
 
 const mains = albums
-      .filter(album => album.category === "glavno jelo")
+      .filter(album => album.category === "album")
       .sort((a, b) => a.name.localeCompare(b.name));
 
 render(mains);
