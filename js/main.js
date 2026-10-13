@@ -1,41 +1,39 @@
-import { dishes } from "./data.js";
+import { albums } from "./data.js";
 
-console.log(dishes);
-
+console.log(albums);
 const list = document.querySelector("#list");
 const count = document.querySelector("#count");
 const empty = document.querySelector("#empty");
 const loading = document.querySelector("#loading");
 
-// popis klasa za jeftina jela
 const CHEAP = ["ring-2", "ring-emerald-500"];
 
-//izrada kartice za jelo
-function createCard(dish) {
+function createCard(album) {
     const card = document.createElement("article");
-    card.className = "rounded-lg bg-white p-4 shadow";
-    card.dataset.id = dish.id;
+    
+    card.className = "rounded-lg bg-white p-4 shadow"
+    card.dataset.id = album.id;
 
     const image = document.createElement("img");
-    image.src = dish.image;
-    image.alt = dish.name;
+    image.src = album.image;
+    image.alt = album.name;
     image.className = "mb-3 w-full rounded";
 
     const name = document.createElement("h2");
     name.className = "font-semibold";
-    name.textContent = dish.name;
+    name.textContent = album.name;
 
     const price = document.createElement("p");
-    price.textContent = `${dish.price} EUR`;
+    price.textContent = `${album.price} EUR`;
 
     const link = document.createElement("a");
-    link.href = dish.url;
+    link.href = album.url;
     link.className = "text-blue-700 underline";
-    link.textContent = "Više o jelu"
+    link.textContent = "Više o jelu";
 
     card.append(image, name, price, link);
 
-    if(dish.price < 3) {
+    if (album.price < 3) {
         card.classList.add(...CHEAP);
     }
 
@@ -48,20 +46,19 @@ function render(items) {
     const fragment = document.createDocumentFragment();
     for (const item of items) {
         fragment.append(createCard(item));
-    }
+        }
+        list.append(fragment);
 
-    list.append(fragment);
+        count.textContent = `Prikazana jela: ${items.length}`;
 
-    count.textContent = `Prikazana jela: ${items-lenght}`;
-
-    empty.classList.toggle("hidden", items.length > 0);
-
+        empty.classList.toggle("hidden", items.length > 0);
+    
 }
 
-const mains = dishes
-    .filter(dish => category === "glavno jelo")
-    .sort((a, b) => a.name.localeCompare(b.name));
+const mains = albums
+      .filter(album => album.category === "glavno jelo")
+      .sort((a, b) => a.name.localeCompare(b.name));
 
-render(dishes);
+render(mains);
 
-loading.remove();
+loading.remove
