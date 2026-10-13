@@ -5,7 +5,7 @@ export const albums = [
         name: "Trilogy",
         price: 1,
         category: "kompilacija",
-        image: "https://placehold.co/300x300?text=Trilogy",
+        image: "slike/trilogy.jpg",
         url:"https://open.spotify.com/album/5EbpxRwbbpCJUepbqVTZ1U?si=rlTCOvioTrq-0oZsUxSNVg"
 
     },
@@ -14,7 +14,7 @@ export const albums = [
         name: "Kiss Land",
         price: 3,
         category: "album",
-        image: "https://placehold.co/300x300?text=Kiss+Land",
+        image: "slike/kissland.jpg",
         url:"https://open.spotify.com/album/3hhDpPtCFuQbppwYgsVhMO?si=PF4s0_a9RpOBafkKtntb3Q"
 
     },
@@ -23,7 +23,7 @@ export const albums = [
         name: "Beauty Behind The Madness",
         price: 4,
         category: "album",
-        image: "https://placehold.co/300x300?text=Beauty+Behind+The+Madness",
+        image: "slike/bbtm.jpg",
         url:"https://open.spotify.com/album/0P3oVJBFOv3TDXlYRhGL7s?si=-Za0XCJeR0anBUvNx_zLlg"
 
     },
@@ -32,7 +32,7 @@ export const albums = [
         name: "Starboy",
         price: 2,
         category: "album",
-        image: "https://placehold.co/300x300?text=Starboy",
+        image: "slike/starboy.jpg",
         url:"https://open.spotify.com/album/2ODvWsOgouMbaA5xf0RkJe?si=bteFNRhFS76X3Ti-nSLSCg"
 
     },
@@ -41,7 +41,7 @@ export const albums = [
         name: "My Dear Melancholy,",
         price: 4,
         category: "ep",
-        image: "https://placehold.co/300x300?text=My+Dear+Melancholy,",
+        image: "slike/mdm.jpg",
         url:"https://open.spotify.com/album/3iVFKUpkS32p2YcLMA02u6?si=rAUgIrlxS9GTfRag1wKQ1A"
 
     },
@@ -50,7 +50,7 @@ export const albums = [
         name: "After Hours",
         price: 2,
         category: "album",
-        image: "https://placehold.co/300x300?text=After+Hours",
+        image: "slike/afterhours.jpg",
         url:"https://open.spotify.com/album/4yP0hdKOZPNshxUOjY0cZj?si=_JG55Uo7RuuVTvO_hH7E_A"
 
     },
@@ -59,7 +59,7 @@ export const albums = [
         name: "Dawn FM",
         price: 2,
         category: "album",
-        image: "https://placehold.co/300x300?text=Dawn+FM",
+        image: "slike/dawnfm.jpg",
         url:"https://open.spotify.com/album/7fQ5hjs3fhWJ7DfWID6vnO?si=S9Uc2-Q1RyWnb8CTTCoM3Q"
 
     },
@@ -68,7 +68,7 @@ export const albums = [
         name: "Hurry Up Tomorrow",
         price: 2,
         category: "album",
-        image: "https://placehold.co/300x300?text=Hurry+Up+Tomorrow",
+        image: "slike/hut.jpg",
         url:"https://open.spotify.com/album/3OxfaVgvTxUTy7276t7SPU?si=joQOd8IxQyK8GkzTbN3SzA"
 
     }
