@@ -23,17 +23,17 @@ function createCard(album) {
     name.className = "font-semibold";
     name.textContent = album.name;
 
-    const price = document.createElement("p");
-    price.textContent = `${album.price} EUR`;
+    const review = document.createElement("p");
+    review.textContent = `Ocjena: ${album.review}/5`;
 
     const link = document.createElement("a");
     link.href = album.url;
     link.className = "text-blue-700 underline";
     link.textContent = "Link za album";
 
-    card.append(image, name, price, link);
+    card.append(image, name, review, link);
 
-    if (album.price < 3) {
+    if (album.review === 5) {
         card.classList.add(...CHEAP);
     }
 

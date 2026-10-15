@@ -3,7 +3,7 @@ export const albums = [
     {
         id: 1,
         name: "Trilogy",
-        price: 1,
+        review: 4,
         category: "kompilacija",
         image: "slike/trilogy.jpg",
         url:"https://open.spotify.com/album/5EbpxRwbbpCJUepbqVTZ1U?si=rlTCOvioTrq-0oZsUxSNVg"
@@ -12,7 +12,7 @@ export const albums = [
     {
         id: 2,
         name: "Kiss Land",
-        price: 3,
+        review: 3,
         category: "album",
         image: "slike/kissland.jpg",
         url:"https://open.spotify.com/album/3hhDpPtCFuQbppwYgsVhMO?si=PF4s0_a9RpOBafkKtntb3Q"
@@ -21,7 +21,7 @@ export const albums = [
     {
         id: 3,
         name: "Beauty Behind The Madness",
-        price: 4,
+        review: 3,
         category: "album",
         image: "slike/bbtm.jpg",
         url:"https://open.spotify.com/album/0P3oVJBFOv3TDXlYRhGL7s?si=-Za0XCJeR0anBUvNx_zLlg"
@@ -30,7 +30,7 @@ export const albums = [
     {
         id: 4,
         name: "Starboy",
-        price: 2,
+        review: 3,
         category: "album",
         image: "slike/starboy.jpg",
         url:"https://open.spotify.com/album/2ODvWsOgouMbaA5xf0RkJe?si=bteFNRhFS76X3Ti-nSLSCg"
@@ -39,7 +39,7 @@ export const albums = [
     {
         id: 5,
         name: "My Dear Melancholy,",
-        price: 4,
+        review: 4,
         category: "ep",
         image: "slike/mdm.jpg",
         url:"https://open.spotify.com/album/3iVFKUpkS32p2YcLMA02u6?si=rAUgIrlxS9GTfRag1wKQ1A"
@@ -48,7 +48,7 @@ export const albums = [
     {
         id: 6,
         name: "After Hours",
-        price: 2,
+        review: 5,
         category: "album",
         image: "slike/afterhours.jpg",
         url:"https://open.spotify.com/album/4yP0hdKOZPNshxUOjY0cZj?si=_JG55Uo7RuuVTvO_hH7E_A"
@@ -57,7 +57,7 @@ export const albums = [
      {
         id: 7,
         name: "Dawn FM",
-        price: 2,
+        review: 5,
         category: "album",
         image: "slike/dawnfm.jpg",
         url:"https://open.spotify.com/album/7fQ5hjs3fhWJ7DfWID6vnO?si=S9Uc2-Q1RyWnb8CTTCoM3Q"
@@ -66,7 +66,7 @@ export const albums = [
      {
         id: 8,
         name: "Hurry Up Tomorrow",
-        price: 2,
+        review: 4,
         category: "album",
         image: "slike/hut.jpg",
         url:"https://open.spotify.com/album/3OxfaVgvTxUTy7276t7SPU?si=joQOd8IxQyK8GkzTbN3SzA"
